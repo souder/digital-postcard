@@ -1,0 +1,55 @@
+body{
+background-color: black;
+height: 100vh;
+}
+#postcard{
+background-color: white;
+width: 530px;
+height: 340px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 10px;
+font-size: 18px;
+font-family: 'Handlee', cursive;
+font-weight: bold;
+}
+#postcard h1 {
+    background: url('http://assets.breatheco.de/apis/img/icon/4geeks.png') no-repeat right center;
+    background-size: 70px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 0 10px 0;
+}
+#postcard-p{
+    margin-right: 16px;
+    text-align: justify;
+}
+#postcard-p,
+#postcard-form{
+    float: left;
+    width: 257px;
+}
+#postcard > div {
+    overflow: hidden;
+}
+button{
+    font-size: 18px;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    background-color: rgb(209, 200, 200);
+    border-width: 0;
+    padding-bottom: 5px;
+}
+#boton{
+    text-align: center;    
+}
+input{
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+    border-width: 0 0 1px 0;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+}
